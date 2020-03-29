@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
+  "name": "AOS demo",
   "version": "1.0.0",
-  "description": "Tristan's custom boilerplate w/ scss & gulp",
+  "description": " not anumore son!Tristan's custom boilerplate w/ scss & gulp",
   "main": "gulpfile.js",
   "directories": {
     "doc": "doc"
@@ -20,6 +20,7 @@
     "gulp-sourcemaps": "^2.6.5"
   },
   "dependencies": {
-    "animate.css": "^3.7.2"
+    "animate.css": "^3.7.2",
+    "aos": "^3.0.0-beta.6"
   }
 }

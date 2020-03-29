@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <title></title>
+  <title>Parallax Me</title>
   <meta name="description" content="">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -12,37 +12,75 @@
   <!-- Place favicon.ico in the root directory -->
   <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
   <link rel="icon" href="favicon.ico" type="image/x-icon">
-  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
-
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <meta name="theme-color" content="#fafafa">
 </head>
 
-<body class="container">
+<body>
   <!--[if IE]>
     <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
   <![endif]-->
 
   <!-- Add your site or application content here -->
-  <header>
-    <h1>Shrimp</h1>
-  </header>
-    <!-- Menu Template -->
-  <nav>
-        <ul>
-            <li><a href="#">Link 1</a></li>
-            <li><a href="#">Link 2</a></li>
-            <li><a href="#">Link 3</a></li>
-            <li><a href="#">Link 4</a></li>
-            <li><a href="#">Link 5</a></li>
-        </ul>
-  </nav>
+
+  <div class="parallax">
+    <div id="group1" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <div class="title2" id="base">
+            <h1>My BBQ Adventure</h1>
+          </div>
+      </div>
+    </div>
+    <div id="group2" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <div class="title" id="base"><h2 id="cover">Tri-Tip</h2>
+          <p id="cover">Tri-Tip is one of my favorite cuts I have cooked so far in my great BBQ experience. It has the flavor of a brisket but cooks in a quarter of the time so it is perfect for a beginner like me.</p></div>
+      </div>
+      <div class="parallax__layer parallax__layer--back">
+        <div class="title2" id="back"></div>
+      </div>
+    </div>
+    <div id="group3" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore">
+          <div class="title2" id="fore3"><div><h2>Beef Flank</h2><p>Flank is a tough cut of meat but a little smoke can change that.</p></div><img src="img/flank.jpg" height="300"></div>
+      </div>
+      <div class="parallax__layer parallax__layer--base">
+        <div class="title" id="base"></div>
+      </div>
+    </div>
+    <div id="group4" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base" >
+        <div class="title" id="base"><h2 id="cover">Sirloin Flap</h2><p id="cover">Sirloin Flap is by far my favorite cut of meat I have smoked in my great adventure. It's tender and full of flavor!</p></div>
+      </div>
+      <div class="parallax__layer parallax__layer--back">
+        <div class="title2" id="back"><img src="img/flap.jpg"></div>
+      </div>
+      <div class="parallax__layer parallax__layer--deep">
+        <div class="title" id="deep"></div>
+      </div>
+    </div>
+    <div id="group5" class="parallax__group">
+      <div class="parallax__layer parallax__layer--fore">
+        <div class="title" id="fore"><h2 id="cover">Brisket</h2><p id="cover">I have only made one brisket so far and it took almost 10 hours to complete. I am not sure if I want to try to cook the king of BBQ again because it was so difficult to not get it to dry out, but I was surprised with how well it turned out, and my friend got a DSLR shot of my first brisket!</p></div>
+      </div>
+      <div class="parallax__layer parallax__layer--base">
+        <div class="title2" id="base"></div>
+      </div>
+    </div>
+    <div id="group6" class="parallax__group">
+      <div class="parallax__layer parallax__layer--base">
+        <div class="title" id="base"><h2 id="cover">Ribeye</h2><p id="cover">I just figured I would share a ribeye steak I cooked recently for the end because I am out of my BBQ pictures but this one is special because the cow that made it possible came from my family's ranch. Know where your food comes from!</p></div>
+      </div>
+    </div>
+  </div>
 
   <script src="js/vendor/modernizr-3.8.0.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
   <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.4.1.min.js"><\/script>')</script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
+  <script src="js/parallax.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
   <script>
